@@ -1,0 +1,21 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2hhbmUiLCJpYXQiOjE2ODUyMDEwNDEsImV4cCI6MTY4NTIwMTA1Nn0.ooqpvvKOTZ7hzwAqvufpV7--d5B5zyU0-DR1C2gpbus
+
+###
+Post http://localhost:4000/token
+Content-Type: application/json
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2hhbmUiLCJpYXQiOjE2ODUyMDE0OTB9.JSQ9mHMNPJ5yaAhpOXeBuToOROFw0kVpXvC3xhDUqiU"
+}
+
+
+
+
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+  "username": "Shane"
+}
